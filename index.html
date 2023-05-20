@@ -11,16 +11,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Simple Chat</title>
   </head>
   <body>
-    <div class="container">
+    <div id="app">
       <div class="header">
         <div class="title">
           <img src="" alt="" />
           <span>Cecilia Sassaki</span>
           <span>Online</span>
-          <span>X</span>
+          <ion-icon name="close-outline"></ion-icon>
         </div>
 
         <div class="hour-title">
@@ -37,16 +45,31 @@
         <div class="message" id="second">
           <span>Você - 11:32</span>
           <div class="content-message">
-            <span> Tive uma ideia incrível para um projeto! 😍</span>
+            <span> Sério? Me conta mais</span>
+          </div>
+        </div>
+        <div class="message" id="terciary">
+          <span>Cecilia - 11:34</span>
+          <div class="content-message">
+            <span
+              >E se a gente fizesse um chat moderno e responsivo em apenas uma
+              semana?
+            </span>
+          </div>
+        </div>
+        <div class="message" id="first">
+          <span>Você - 11:36</span>
+          <div class="content-message">
+            <span> #boraCodar! 🚀</span>
           </div>
         </div>
       </div>
       <div class="footer">
         <div class="type-message">
-          <input type="text" />
-          <i>Zica</i>
+          <input type="text" placeholder="Digite sua mensagem" />
+          <ion-icon name="send-outline"></ion-icon>
         </div>
-      </div>
+      </div>œ
     </div>
   </body>
 </html>
