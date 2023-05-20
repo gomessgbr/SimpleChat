@@ -1,0 +1,15 @@
+* {
+  margin: o;
+  padding: o;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #1a1924;
+  color: #fff;
+}
+
+@media screen and (max-width: 57.5rem) {
+}
